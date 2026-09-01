@@ -1,7 +1,7 @@
 # DISTANCE BETWEEN TWO POINTS CALCULATOR
 
 ## DESCRIPTION
-This program calculates the distance between two points, that being coordinates 1 and 2 using the pythagorean theorem, with manual X,Y input using math functions such as sqrt and pow.
+This program calculates the distance between two points, that being coordinates 1 and 2 using the Pythagorean theorem, with manual X,Y input using math functions such as sqrt and pow. This makes this easy and fast, as well as a reliable output.
 
 ## HOW TO RUN
 1. To run, open the program file in **any IDE**, such as VS Code, Notepad++, etc.
@@ -14,6 +14,8 @@ This program calculates the distance between two points, that being coordinates 
 - Coordinate 2 (*x2,y2*)
 
 ## SAMPLE OUTPUT
+*Italics like this indicate user input*, **while bold letters like this indicate outputs.**
+
 Coordinate 1 = *8,6*
 
 Coordinate 2 = *10,3*
