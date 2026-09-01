@@ -15,10 +15,12 @@ This program calculates the distance between two points, that being coordinates 
 
 ## SAMPLE OUTPUT
 Coordinate 1 = 8,6
+
 Coordinate 2 = 10,3
 
 'The distance is 3.605551275463989'
 
 ## AUTHOR
 Name: Daniel James O. Escosia
+
 Section: 8-Sampaguita
