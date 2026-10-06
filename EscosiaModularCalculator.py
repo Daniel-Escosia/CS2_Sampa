@@ -1,19 +1,28 @@
-input_num1 = float(input("Input the first number: "))
-input_num2 = float(input("Input the second number: "))
-add_numbers = input_num1 + input_num2
-subtract_numbers = input_num1 - input_num2
-multiply_numbers = input_num1 * input_num2
-input_operation = input("1 for addition, 2 for subtraction, 3 for multiplying, 4 for dividing: ").strip()
-if input_operation == "1":
-  print("The sum is:", add_numbers)
-elif input_operation == "2":
-  print("The difference is:", subtract_numbers)
-elif input_operation == "3":
-  print("The product is:", multiply_numbers)
-elif input_operation == "4":
-  if input_num2 == 0:
-    print("Pick another number other than zero for the divisor.")
+num1 = float(input("Input the first number: "))
+num2 = float(input("Input the second number: "))
+def add_numbers():
+  sum = num1+num2
+  print("The sum is:", sum)
+def subtract_numbers():
+  difference = num1-num2
+  print("The difference is:", difference)
+def multiply_numbers():
+  product = num1*num2
+  print("The product is:", product)
+def divide_numbers():
+  if num2 == 0:
+    print("Cannot divide by 0.")
   else:
-    divide_numbers = input_num1/input_num2
+    quotient = num1/num2
+    print("The quotient is:", quotient)
+operation = int(input("1 for addition, 2 for subtraction, 3 for multiplication, 4 for division: ").strip())
+if operation == 1:
+  add_numbers()
+elif operation == 2:
+  subtract_numbers()
+elif operation == 3:
+  multiply_numbers()
+elif operation == 4:
+  divide_numbers()
 else:
-  print("Not a valid operation.")
+  print("No valid operation.")
